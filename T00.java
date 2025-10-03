@@ -1,23 +1,23 @@
 import java.util.*;
 import java.lang.Math;
 
-public class Program {
+public class TOO {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         int a, b;
 
-        a = input.nextInt();
-        b = input.nextInt();
+        a = Integer.parseInt(input.nextLine());
+        b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
-            System.out.println("Bilangan pertama genap");
+            System.out.println("Bilangan pertama: genap");
         } else {
             System.out.println("Bilangan pertama: Ganjil");
         }
         if (b % 2 == 0) {
-            System.out.println("Bilangan pertama genap");
+            System.out.println("Bilangan kedua: genap");
         } else {
-            System.out.println("Bilangan pertama ganjil");
+            System.out.println("Bilangan kedua: ganjil");
         }
         if (a > b) {
             System.out.println("a lebih besar dari b");
@@ -31,8 +31,8 @@ public class Program {
         if (a % 2 == 0 && b % 2 == 0) {
             System.out.println("hasil penjumlahan:" + a + b);
         } else {
-            System.out.println("hasil perkalian" + a * b);
             if (a == b) {
+                System.out.println("hasil perkalian" + a * b);
             } else {
                 System.out.println("berbeda jenis");
             }
