@@ -6,6 +6,7 @@ public class T00 {
 
     public static void main(String[] args) {
         int a, b;
+
         a = Integer.parseInt(input.nextLine());
         b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
@@ -30,8 +31,8 @@ public class T00 {
         if (a % 2 == 0 && b % 2 == 0) {
             System.out.println("hasil penjumlahan:" + a + b);
         } else {
-            System.out.println("hasil perkalian" + a * b);
             if (a == b) {
+                System.out.println("hasil perkalian" + a * b);
             } else {
                 System.out.println("berbeda jenis");
             }
