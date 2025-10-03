@@ -1,14 +1,14 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T00 {
+public class Program {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         int a, b;
 
-        a = Integer.parseInt(input.nextLine());
-        b = Integer.parseInt(input.nextLine());
+        a = input.nextInt();
+        b = input.nextInt();
         if (a % 2 == 0) {
             System.out.println("Bilangan pertama genap");
         } else {
@@ -31,8 +31,8 @@ public class T00 {
         if (a % 2 == 0 && b % 2 == 0) {
             System.out.println("hasil penjumlahan:" + a + b);
         } else {
+            System.out.println("hasil perkalian" + a * b);
             if (a == b) {
-                System.out.println("hasil perkalian" + a * b);
             } else {
                 System.out.println("berbeda jenis");
             }
