@@ -1,3 +1,5 @@
+// 12S25047-Eva Panjaitan
+// 12S25049-Grycelda Sthefanny
 import java.util.*;
 import java.lang.Math;
 
